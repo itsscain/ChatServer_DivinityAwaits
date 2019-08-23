@@ -1,6 +1,6 @@
 <?php
 $msg = $_GET['w'];
-$logfile= 'data.txt';
+$logfile= 'RealTime.txt';
 $fp = fopen($logfile, "a");
 fwrite($fp, $msg);
 fclose($fp);
